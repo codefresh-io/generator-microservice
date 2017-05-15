@@ -1,0 +1,22 @@
+{
+  "name": "generator-microservice",
+  "version": "1.0.0",
+  "description": "Generate Docker resources (docker-compose and Dockerfile) for your Node projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tal Weinfeld",
+  "license": "ISC",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "json2yaml": "^1.1.0",
+    "lodash": "^4.17.4",
+    "yeoman-generator": "^1.0.0"
+  }
+}
